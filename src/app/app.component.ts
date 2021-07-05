@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'pm-root',
   template: ` // ES 2015 Back Ticks
     <div><h1>{{pageTitle}}</h1>
-    <div>My First component!</div>
+    <pm-products></pm-products>
   </div>
 `
 })
