@@ -8,7 +8,7 @@ import {Observable} from "rxjs";
 })
 
 export class ProductService {
-  private productUrl = 'www.myWebService.com/api/products';
+  private productUrl = 'api/products/products.json';
 
   constructor(private http: HttpClient) {
   }
