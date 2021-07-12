@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { IProduct } from "./product";
-import {filter} from "rxjs/operators";
 
 @Component({
   selector: 'pm-products',
@@ -59,5 +58,9 @@ export class ProductListComponent implements OnInit {
 
   toggleImage(): void {
     this.showImage = !this.showImage;
+  }
+
+  onRatingClicked(message: string): void {
+    this.pageTitle = 'Product List: ' + message;
   }
 }
