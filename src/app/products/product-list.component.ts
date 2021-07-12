@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { IProduct } from "./product";
-import {filter} from "rxjs/operators";
 
 @Component({
   selector: 'pm-products',
